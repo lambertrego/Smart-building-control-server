@@ -1,0 +1,26 @@
+
+smart-building-glt/
+├── .github/
+│   └── workflows/
+│       └── ci.yml              # GitHub Actions CI pipeline
+├── .vscode/
+│   ├── c_cpp_properties.json
+│   ├── launch.json
+│   └── tasks.json              # VS Code build/test tasks
+├── docs/                       # V-Model Documentation
+│   ├── 01_requirements.md
+│   ├── 02_architecture.md
+│   └── 03_test_plan.md
+├── src/                        # Source Code
+│   ├── domain/
+│   │   ├── Room.hpp
+│   │   └── Room.cpp
+│   ├── hal/                    # Hardware Abstraction Layer
+│   │   └── ITemperatureSensor.hpp
+│   └── main.cpp
+├── tests/                      # Unit & Integration Tests
+│   ├── CMakeLists.txt
+│   └── test_room.cpp
+├── .gitignore
+├── CMakeLists.txt              # Main build script
+└── README.md
